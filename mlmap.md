@@ -48,7 +48,7 @@ markmap:
 - Building knowledge graphs from biomedical literature
 - Extracting pathway information from research articles
 
-## Computer Vision [ℹ️](https://www.ibm.com/topics/computer-vision)
+## Computer Vision [ℹ️](https://www.ibm.com/topics/computer-vision) (e.g. [CellProfiler](https://cellprofiler.org/))
 ### Image Classification
 - Classifying cell types in microscopy images
 - Identifying disease patterns in medical imaging
