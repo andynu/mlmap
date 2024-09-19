@@ -4,7 +4,6 @@ markmap:
   colorFreezeLevel: 2
   maxWidth: 300
   embedAssets: true
-  initialExpandLevel: 1
 ---
 
 # Pipelines

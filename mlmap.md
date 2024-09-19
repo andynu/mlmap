@@ -1,3 +1,10 @@
+---
+title: AI in Biology and Bioinformatics
+markmap:
+  colorFreezeLevel: 2
+  maxWidth: 300
+  embedAssets: true
+---
 # AI in Biology and Bioinformatics
 
 ## Machine Learning
