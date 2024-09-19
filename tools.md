@@ -5,7 +5,7 @@ markmap:
   maxWidth: 300
   embedAssets: true
 ---
-# Tools for Computational Biology Research
+# Computational Biology Tools
 ## Programming Languages
 ### Python
 - Libraries
@@ -35,6 +35,11 @@ markmap:
 - [Nextflow](https://www.nextflow.io/) is a workflow management system that enables the writing of scripts in a domain-specific language to define the workflow. Notably it works with containers both Docker and Singularity. This can also use slurm.
 ### Snakemake
 - [Snakemake](https://snakemake.readthedocs.io/en/stable/) is a workflow management system that allows the creation of reproducible and scalable data analyses. This can also use slurm.
+## RNA-Seq Analysis
+### Alignment
+- `STAR` [docs](https://code.google.com/archive/p/rna-star/)
+- `tophat` [docs](https://ccb.jhu.edu/software/tophat/index.shtml)
+- `bowtie 2` [docs](https://github.com/BenLangmead/bowtie2)
 ## Biological File Formats
 ### SAM/BAM Tools
 - `samtools` [docs](http://www.htslib.org/doc/samtools.html)
@@ -44,3 +49,6 @@ markmap:
 - `bedtools` [docs](https://bedtools.readthedocs.io/en/latest/)
 ### FASTA/FASTQ Tools
 ### GFF/GTF Tools
+## Other resources
+- [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
+- [bio.tools](https://bio.tools/)
