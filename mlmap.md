@@ -9,34 +9,47 @@ markmap:
 
 ## Machine Learning
 ### Supervised Learning [ℹ️](https://www.huber.embl.de/msmb/12-chap.html)
-#### Classification
-- Protein function prediction
-- Cancer type classification from gene expression data
-#### Regression
-- Predicting drug response based on genetic markers
-- Estimating protein-ligand binding affinity
+#### Classification [📖](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030116)
+- Gene co-expression cluster discovery in microarray data
+- Patient subgroup identification from molecular profiles
+- Protein family clustering based on sequence similarity
+#### Regression [📖](https://royalsocietypublishing.org/doi/full/10.1098/rspa.2014.0081)
+- Predicting the time it will take for a tumor to recur after treatment.
+- Identifying genes that can differentiate between early and advanced stages of cancer.
+- Forecasting how effective potential drugs will be against specific types of cancer.
+- Selecting a small set of genes from thousands that are most predictive of a clinical outcome.
+- Determining which molecular features are associated with cancer metastasis.
 ### Unsupervised Learning [ℹ️](https://www.ibm.com/topics/unsupervised-learning)
 #### Clustering
 - Identifying cell types in single-cell RNA sequencing data
 - Grouping similar protein structures
-#### Dimensionality Reduction
-- Visualizing high-dimensional genomic data
-- Reducing noise in proteomic data
+#### Dimensionality Reduction [📖](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.15905)
+- PCA: Visualize and compress high-dimensional biological data to identify major patterns.
+- t-SNE: Reveal population structures in complex datasets like single-cell sequencing data.
+- NMF: Decompose large gene expression matrices to discover functional gene modules.
+- Autoencoders: Compress and extract features from complex biological data for better analysis.
 ### Deep Learning [ℹ️](https://www.ibm.com/topics/deep-learning)
 #### Neural Network Architectures
-##### Convolutional Neural Networks (CNNs)
+##### Convolutional Neural Networks (CNNs) [📖](https://link.springer.com/article/10.1186/s41232-019-0103-3)
 - Protein secondary structure prediction
-- Cell image classification
-##### Recurrent Neural Networks (RNNs)
-- DNA sequence analysis
-- Protein sequence analysis
+- Automated cell type classification from microscope images without molecular labeling
+- Interpretation of genomic and RNA sequencing data
+- Label-free recognition of cell types, nuclei, and cell states
+- Morphology-based cell sorting without chemical markers
+- Analysis of medical images for disease detection and diagnosis
+##### Recurrent Neural Networks (RNNs) [📖](https://ieeexplore.ieee.org/abstract/document/1504688)
+- Biological sequence analysis
+- Subcellular localization prediction (detection of Signal peptides, Mitochondrial targeting peptides, Chloroplast targeting peptides)
+- Motif detection in protein sequences
+- Flexible pattern recognition in biological sequences
+- Processing of sequential data with variable length
 ##### Transformers
 - Protein structure prediction (e.g., [AlphaFold](https://alphafold.ebi.ac.uk/))
 - Predicting effects of genetic variants
+- See Generative AI / Large Language Models below.
 ### Reinforcement Learning [ℹ️](https://www.ibm.com/topics/reinforcement-learning)
 - Optimizing drug discovery pipelines
 - Designing targeted protein sequences
-
 ## Natural Language Processing (NLP) [ℹ️](https://www.ibm.com/topics/natural-language-processing)
 ### Text Classification
 - Categorizing biomedical literature
