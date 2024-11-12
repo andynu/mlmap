@@ -44,12 +44,11 @@ markmap:
 - Flexible pattern recognition in biological sequences
 - Processing of sequential data with variable length
 ##### Transformers
-- Protein structure prediction (e.g., [AlphaFold](https://alphafold.ebi.ac.uk/))
-- Predicting effects of genetic variants
-- See Generative AI / Large Language Models below.
+- See Generative AI section below
 ### Reinforcement Learning [ℹ️](https://www.ibm.com/topics/reinforcement-learning)
 - Optimizing drug discovery pipelines
 - Designing targeted protein sequences
+
 ## Natural Language Processing (NLP) [ℹ️](https://www.ibm.com/topics/natural-language-processing)
 ### Text Classification
 - Categorizing biomedical literature
@@ -92,7 +91,19 @@ markmap:
 
 ## Generative AI
 ### Large Language Models (LLMs) [ℹ️](https://www.ibm.com/topics/large-language-models)
-- Protein design, understanding genetic variations, and predicting protein properties. (e.g. [HyenaDNA](https://github.com/HazyResearch/hyena-dna), [DNABert](https://github.com/jerryji1993/DNABERT), [ESM](https://github.com/evolutionaryscale/esm), [ProteinBERT](https://github.com/nadavbra/protein_bert))
+- Protein design, understanding genetic variations, and predicting protein properties. (e.g. [HyenaDNA](https://github.com/HazyResearch/hyena-dna), [DNABert](https://github.com/jerryji1993/DNABERT), [ProteinBERT](https://github.com/nadavbra/protein_bert))
+#### Protein Language Models (PLMs)
+##### Structure Predictors
+- Accurate prediction of 3D protein structures from amino acid sequences (e.g., [AlphaFold](https://alphafold.ebi.ac.uk/))
+- Prediction of protein-protein and protein-nucleic acid interactions
+##### De Novo Protein Generators
+- Design of completely new proteins with desired properties
+- Creation of novel biological tools and therapeutics
+##### Property Predictors
+- Prediction of various protein properties from sequence alone (e.g., [ESM](https://github.com/evolutionaryscale/esm))
+- Use of "embeddings" to capture latent protein features
+- Acceleration of research by predicting time-consuming or costly properties
+- Effective performance with small training datasets
 ### Generative Adversarial Networks (GANs)
 - Generating synthetic biological data for research
 - Designing novel drug-like molecules
