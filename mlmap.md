@@ -94,7 +94,7 @@ markmap:
 - Protein design, understanding genetic variations, and predicting protein properties. (e.g. [HyenaDNA](https://github.com/HazyResearch/hyena-dna), [DNABert](https://github.com/jerryji1993/DNABERT), [ProteinBERT](https://github.com/nadavbra/protein_bert))
 #### Protein Language Models (PLMs)
 ##### Structure Predictors
-- Accurate prediction of 3D protein structures from amino acid sequences (e.g., [AlphaFold](https://alphafold.ebi.ac.uk/))
+- Accurate prediction of 3D protein structures from amino acid sequences (e.g., [AlphaFold](https://alphafold.ebi.ac.uk/), [Boltz-1](https://www.biorxiv.org/content/10.1101/2024.11.19.624167v1))
 - Prediction of protein-protein and protein-nucleic acid interactions
 ##### De Novo Protein Generators
 - Design of completely new proteins with desired properties
